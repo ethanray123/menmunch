@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 28, 2016, 7:33:27 PM
+    Author     : user
+*/
+
+body{
+    margin: 0;
+    background-image: url("Menchie's Munchies Pictures/Web-Background.png");
+}
+
+.error{
+    text-align: center;
+    margin-top: 25%;
+}
+
+#IB{
+    position: absolute;
+    z-index: 1;
+    background-color: #FFE8A3;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 400px;
+    height: 320px;
+    opacity: 0.7;
+}
+
+#log{
+    position: absolute;
+    z-index: 2;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-family: mv boli;
+}
+
+button{
+    background-color: #D4B16A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px 28px;
+}
+
+button:hover{
+    color: #FFF;
+    background: #900;
+}
+
+#header{
+    display: inline;
+    padding: 6px;
+    background-color: #D4B16A;
+    font-family: mv boli;
+    font-weight: bold;
+    border-left: 6px solid #805C15;
+}
+
+table tr{
+    padding: 10px;
+}
+
+.table{
+    word-wrap: normal;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    background-color: #FFE8A3;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 400px;
+    opacity: 0.9;
+}
+
+.tablecontents{
+    z-index: 2;
+    font-family: mv boli;
+    opacity: 1;
+}
+
+#cart{
+    display: none;
+}
+/*
+nav ul{
+	margin: 0 0 0 15px;;
+	padding: 0;
+	display: inline;
+}
+
+nav ul li{
+	background: black;
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 15px;
+}
+
+nav ul li a{
+	color: white;
+}*/
